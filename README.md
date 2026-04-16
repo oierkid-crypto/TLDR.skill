@@ -1,254 +1,231 @@
 # TLDR.skill
 
-**Turn Xiaohongshu, Douyin, and YouTube links into a cleaned transcript, a concise summary, and a Reality Check.**
+<p align="center">
+  <a href="README.md"><img alt="English" src="https://img.shields.io/badge/Language-English-111827?style=for-the-badge"></a>
+  <a href="README.zh-CN.md"><img alt="简体中文" src="https://img.shields.io/badge/语言-简体中文-2563eb?style=for-the-badge"></a>
+</p>
 
-[中文说明 / Chinese README](README.zh-CN.md)
+<p align="center"><strong>Turn Xiaohongshu, Douyin, and YouTube links into a cleaned transcript, a sharp summary, and a Reality Check.</strong></p>
 
-> TLDR.skill is a public, shareable workflow built on top of the Hermes Agent codebase.
-> This repository currently keeps the **full Hermes repo** because the implementation lives inside Hermes-native prototype + skill paths.
+<p align="center">
+  <a href="https://github.com/oierkid-crypto/TLDR.skill"><img alt="Stars" src="https://img.shields.io/github/stars/oierkid-crypto/TLDR.skill?style=social"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"></a>
+  <img alt="Python" src="https://img.shields.io/badge/python-3.11%2B-blue">
+</p>
 
 ---
 
-## What is this?
+## TL;DR
 
-TLDR.skill is for people who constantly receive video links and want the **usable text version** instead of watching everything end to end.
+Most video tools give you either:
 
-Give it a video URL from:
+- a messy transcript dump, or
+- a fluffy AI summary.
 
-- **Xiaohongshu / 小红书**
-- **Douyin / 抖音**
-- **YouTube**
+**TLDR.skill** does the useful middle step:
 
-It produces:
+> **clean the transcript first, then summarize it.**
 
-1. **Summary** — the actual takeaway
-2. **Reality Check** — what sounds credible vs what needs caution
+That makes the output much more readable and much more trustworthy.
+
+---
+
+## What it does
+
+Input: a video URL from
+
+- Xiaohongshu / 小红书
+- Douyin / 抖音
+- YouTube
+
+Output:
+
+1. **Summary** — the distilled takeaway
+2. **Reality Check** — what seems credible vs what needs caution
 3. **Cleaned Transcript** — punctuated, paragraphized, easier to read than raw ASR
 
-This is especially useful when you want to:
+---
 
-- digest creator videos quickly
-- turn spoken content into notes
-- judge whether a video is worth your time
-- share key points with teammates
-- archive short-form video knowledge in Markdown or PDF
+## Why this is different
+
+### Traditional pipeline
+`video -> raw transcript -> summary`
+
+### TLDR.skill pipeline
+`video -> raw transcript -> cleaned transcript -> summary + reality check`
+
+That extra cleanup stage matters a lot in practice, especially for:
+
+- mixed Chinese / English terminology
+- ASR mistakes like `token` / `AIDC` / `Agent`
+- creator videos with poor punctuation after transcription
+- short-form video content that is fast, noisy, and context-heavy
 
 ---
 
-## Why this exists
+## Best use cases
 
-Most video summarizers stop at either:
+### 1. Research faster
+You see a video about AI, startups, monetization, or distribution and want the point without spending 10 minutes watching it.
 
-- raw transcript dumps, or
-- fluffy AI summaries
+### 2. Share better inside teams
+Instead of sending “watch this,” send:
+- summary
+- reality check
+- transcript
 
-TLDR.skill does one extra thing that matters a lot in practice:
+### 3. Build a searchable knowledge base
+Turn noisy video links into Markdown you can archive, grep, reuse, and export.
 
-### Processing order
-
-1. Fetch subtitles or audio
-2. Generate the **raw transcript**
-3. **Repair the transcript first**
-   - punctuation
-   - sentence boundaries
-   - paragraphing
-   - obvious ASR term fixes
-4. Generate:
-   - **Summary**
-   - **Reality Check**
-5. Export the final digest as Markdown, JSON, and optionally PDF
-
-That order is intentional. Better transcript quality leads to better summaries.
-
----
-
-## Output format
-
-A typical Markdown output looks like this:
-
-```md
-# Video Transcript Digest - <title>
-
-- Platform: <platform>
-- URL: <video-url>
-- Transcript source: <provider>
-
-## Summary
-### One-line takeaway
-...
-
-### Key points
-- ...
-
-### Signals
-- ...
-
-## Reality Check
-### Core judgment
-...
-
-### What seems credible
-- ...
-
-### What needs caution
-- ...
-
-### Bottom line
-...
-
-## Transcript
-...
-```
+### 4. Read instead of watch
+If you prefer text over video, this gives you the useful text version.
 
 ---
 
 ## Supported platform strategy
 
 ### YouTube
-Priority order:
-1. official / available captions via `youtube-transcript-api`
+1. official / existing captions via `youtube-transcript-api`
 2. `yt-dlp` auto subtitles
-3. download + ASR fallback
+3. media download + ASR fallback
 
 ### Douyin
-Uses a browser-based fallback instead of relying only on the fragile extractor path:
-- Playwright + local Chrome
-- capture the real media audio request
-- download audio
-- run STT
+1. Playwright + local Chrome
+2. capture the real audio request
+3. download audio
+4. run STT
 
 ### Xiaohongshu
-- download with `yt-dlp`
-- run STT
+1. `yt-dlp` download
+2. STT
 
 ---
 
-## Real usage scenarios
+## Example output shape
 
-### 1. Founder / operator research
-You see a creator video about AI, SaaS, monetization, or distribution and want:
-- the real claim
-- the evidence quality
-- the cleaned transcript for later reference
+```md
+# 视频转录 Digest - <title>
 
-### 2. Team knowledge capture
-Someone drops a Douyin or YouTube link in chat. Instead of “watch this,” you convert it into:
-- summary
-- reality check
-- transcript
+- 平台：<platform>
+- 链接：<url>
+- 转录来源：<provider>
 
-### 3. Content monitoring
-You want to track recurring narratives across short videos without manually watching all of them.
+## 总结
+### 一句话结论
+...
 
-### 4. Personal note-taking
-You prefer reading over watching and want the video turned into searchable text.
+### 核心要点
+- ...
 
----
+### 关键信号
+- ...
 
-## Repository layout
+## Reality Check
+### 核心判断
+...
 
-The main TLDR.skill implementation currently lives here:
+### 哪些点相对可信
+- ...
 
-- `prototypes/video_transcript_digest/src/video_digest.py`
-- `prototypes/video_transcript_digest/src/cli.py`
-- `tests/prototypes/test_video_digest.py`
-- `prototypes/video_transcript_digest/README.md`
-- `media/video-link-transcript-digest` skill path is represented through Hermes skill usage conventions
+### 哪些点需要谨慎
+- ...
 
-This repository contains the broader Hermes Agent framework because TLDR.skill is currently implemented as a Hermes-native workflow rather than a completely standalone package.
+### 最终结论
+...
+
+## 转录稿
+...
+```
 
 ---
 
 ## Quick start
 
-### 1. Create a virtual environment
+### 1. Install
 
 ```bash
 python3.11 -m venv venv
 source venv/bin/activate
+pip install -e ".[video]"
 ```
 
-### 2. Install the repo with the TLDR dependencies
+### 2. Run
 
 ```bash
-pip install -e ".[video-digest]"
+tldr-skill "https://www.youtube.com/watch?v=Mfzucn4f9Xk" --output /tmp/video_digest.md
 ```
 
-### 3. Run the digest CLI
+### 3. JSON mode
 
 ```bash
-PYTHONPATH=prototypes/video_transcript_digest/src:. python \
-  prototypes/video_transcript_digest/src/cli.py \
-  "https://www.youtube.com/watch?v=Mfzucn4f9Xk" \
-  --output /tmp/video_digest.md
-```
-
-### 4. JSON output
-
-```bash
-PYTHONPATH=prototypes/video_transcript_digest/src:. python \
-  prototypes/video_transcript_digest/src/cli.py \
-  "https://v.douyin.com/xxxx/" \
-  --format json
+tldr-skill "https://v.douyin.com/xxxx/" --format json
 ```
 
 ---
 
-## Hermes skill trigger
+## Repo structure
 
-Inside Hermes, this workflow is designed for prompts like:
+```text
+src/tldr_skill/
+  cli.py
+  llm.py
+  transcription.py
+  video_digest.py
+tests/
+  test_video_digest.py
+skills/
+  video-link-transcript-digest/SKILL.md
+```
 
-- `转录 <url>`
-- `转录这个视频 <url>`
-- `总结这个视频 <url>`
-
-The skill logic is documented in the Hermes skill file for the workflow.
+This repo is now intentionally **lean**.
+It contains the actual TLDR.skill implementation, not a full Hermes snapshot.
 
 ---
 
 ## Environment notes
 
-If your Hermes profile runs with an isolated `HOME`, but the target site needs browser cookies, you may need:
+If a target platform needs browser cookies:
 
 ```bash
 export HERMES_YTDLP_COOKIES_FROM_BROWSER=chrome
 export HERMES_YTDLP_BROWSER_HOME=/Users/your-username
 ```
 
----
-
-## Tests
+If you want to override the browser path for Douyin capture:
 
 ```bash
-./venv/bin/python -m pytest tests/prototypes/test_video_digest.py -q
+export TLDR_SKILL_CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 ```
 
-The prototype has dedicated tests covering:
+If you want to override the LLM endpoint / model:
 
-- platform detection
-- transcript cleanup order
-- markdown / JSON rendering
-- YouTube fallback chain
-- Douyin browser fallback
-- CLI output
-
----
-
-## Public repo note
-
-This repo is being published publicly because the workflow is useful beyond a single private workspace.
-
-If you star it, thank you — that helps signal there is real demand for tools that convert noisy video links into structured, readable knowledge.
+```bash
+export OPENAI_API_KEY=...
+export TLDR_SKILL_MODEL=gpt-4.1-mini
+# optional
+export TLDR_SKILL_BASE_URL=...
+```
 
 ---
 
-## Attribution
+## Test
 
-- Base framework: [Hermes Agent](https://github.com/NousResearch/hermes-agent)
-- This public repo packages a TLDR-oriented transcript workflow on top of that foundation
+```bash
+pytest -q
+```
+
+---
+
+## Hermes trigger phrase
+
+Inside Hermes, the intended trigger is:
+
+- `转录 <url>`
+- `转录这个视频 <url>`
+- `总结这个视频 <url>`
 
 ---
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT.
