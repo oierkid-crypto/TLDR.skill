@@ -5,13 +5,21 @@
   <a href="README.zh-CN.md"><img alt="简体中文" src="https://img.shields.io/badge/语言-简体中文-2563eb?style=for-the-badge"></a>
 </p>
 
-<p align="center"><strong>Turn Xiaohongshu, Douyin, and YouTube links into a cleaned transcript, a sharp summary, and a Reality Check.</strong></p>
+<p align="center"><strong>Turn high-density social media videos into readable knowledge.</strong></p>
+
+<p align="center">Capture the transcript. Clean it. Summarize it. Reality-check it.</p>
 
 <p align="center">
   <a href="https://github.com/oierkid-crypto/TLDR.skill"><img alt="Stars" src="https://img.shields.io/github/stars/oierkid-crypto/TLDR.skill?style=social"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"></a>
   <img alt="Python" src="https://img.shields.io/badge/python-3.11%2B-blue">
 </p>
+
+> **Typical moment:** A friend, teacher, or coworker sends you a 10-minute video packed with ideas. You do not have time to watch it now — but you still need the substance.
+
+**TLDR.skill gives you the whole chain:**
+
+`social video link -> transcript -> cleaned transcript -> summary -> Reality Check`
 
 ---
 

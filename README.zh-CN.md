@@ -5,13 +5,21 @@
   <a href="README.zh-CN.md"><img alt="简体中文" src="https://img.shields.io/badge/语言-简体中文-2563eb?style=for-the-badge"></a>
 </p>
 
-<p align="center"><strong>把小红书、抖音、YouTube 链接，变成更好读的转录稿、总结和 Reality Check。</strong></p>
+<p align="center"><strong>把高信息密度的社交媒体视频，变成可读、可判断、可分享的知识。</strong></p>
+
+<p align="center">先拿到文稿，再清理文稿，再总结，再做 Reality Check。</p>
 
 <p align="center">
   <a href="https://github.com/oierkid-crypto/TLDR.skill"><img alt="Stars" src="https://img.shields.io/github/stars/oierkid-crypto/TLDR.skill?style=social"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"></a>
   <img alt="Python" src="https://img.shields.io/badge/python-3.11%2B-blue">
 </p>
+
+> **典型时刻：** 朋友、老师、同事甩给你一段 10 分钟的视频，里面观点很多、信息很密，但你现在根本没时间看完。
+
+**TLDR.skill 给你的不是单点能力，而是整条链路：**
+
+`social video link -> transcript -> cleaned transcript -> summary -> Reality Check`
 
 ---
 
