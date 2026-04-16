@@ -17,16 +17,26 @@
 
 ## TL;DR
 
-Most video tools give you either:
+When a friend, teacher, or coworker sends you a **long, high-density video** from social media, the problem is usually not "can I open the link?"
 
-- a messy transcript dump, or
-- a fluffy AI summary.
+The real problem is:
 
-**TLDR.skill** does the useful middle step:
+- you **don't have time to watch it now**
+- the video may contain **useful ideas buried inside dense speech**
+- you still want to know **what it says, what matters, and what to trust**
 
-> **clean the transcript first, then summarize it.**
+**TLDR.skill** solves that full value chain:
 
-That makes the output much more readable and much more trustworthy.
+> **social media video link -> transcript capture -> transcript cleanup -> summary -> Reality Check**
+
+That is the core value:
+
+1. **get the video into text** from Xiaohongshu / Douyin / YouTube
+2. **clean the transcript** so it becomes readable
+3. **summarize the content** so you get the key takeaway fast
+4. **add a Reality Check** so you know what sounds solid vs what needs caution
+
+So the output is not just more readable — it is more usable.
 
 ---
 
@@ -65,20 +75,32 @@ That extra cleanup stage matters a lot in practice, especially for:
 
 ## Best use cases
 
-### 1. Research faster
+### 1. Someone sends you a long, dense video and you do not have time to watch it
+This is the most common case:
+
+- a friend sends you a creator video
+- a teacher shares a lecture clip
+- a coworker drops a social-media link in chat
+
+The video may be valuable, but it is long, dense, and inconvenient to watch right now.
+
+What you really need is:
+- the transcript
+- the cleaned version
+- the summary
+- the Reality Check
+
+### 2. Research faster
 You see a video about AI, startups, monetization, or distribution and want the point without spending 10 minutes watching it.
 
-### 2. Share better inside teams
+### 3. Share better inside teams
 Instead of sending “watch this,” send:
 - summary
 - reality check
 - transcript
 
-### 3. Build a searchable knowledge base
+### 4. Build a searchable knowledge base
 Turn noisy video links into Markdown you can archive, grep, reuse, and export.
-
-### 4. Read instead of watch
-If you prefer text over video, this gives you the useful text version.
 
 ---
 
