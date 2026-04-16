@@ -1,0 +1,722 @@
+[
+  {
+    "id": "x_fixture_1",
+    "text": "As a sales team I am looking for an alternative to manual CRM. Need a tool that can summarize call notes and update HubSpot automatically.",
+    "author_username": "fixture_sales team_1",
+    "created_at": "2026-04-16T09:07:00Z",
+    "public_metrics": {
+      "like_count": 6,
+      "reply_count": 2,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_sales team/status/x_fixture_1"
+  },
+  {
+    "id": "x_fixture_2",
+    "text": "As a sales team I am looking for an alternative to manual CRM. Need a tool that can summarize call notes and update HubSpot automatically.",
+    "author_username": "fixture_sales team_2",
+    "created_at": "2026-04-16T10:14:00Z",
+    "public_metrics": {
+      "like_count": 7,
+      "reply_count": 3,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_sales team/status/x_fixture_2"
+  },
+  {
+    "id": "x_fixture_3",
+    "text": "As a sales team I am looking for an alternative to manual CRM. Need a tool that can summarize call notes and update HubSpot automatically.",
+    "author_username": "fixture_sales team_3",
+    "created_at": "2026-04-16T11:21:00Z",
+    "public_metrics": {
+      "like_count": 8,
+      "reply_count": 4,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_sales team/status/x_fixture_3"
+  },
+  {
+    "id": "x_fixture_4",
+    "text": "As a sales team I am looking for an alternative to manual CRM. Need a tool that can summarize call notes and update HubSpot automatically.",
+    "author_username": "fixture_sales team_4",
+    "created_at": "2026-04-16T12:28:00Z",
+    "public_metrics": {
+      "like_count": 9,
+      "reply_count": 5,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_sales team/status/x_fixture_4"
+  },
+  {
+    "id": "x_fixture_5",
+    "text": "As a sales team I am looking for an alternative to manual CRM. Need a tool that can summarize call notes and update HubSpot automatically.",
+    "author_username": "fixture_sales team_5",
+    "created_at": "2026-04-16T13:35:00Z",
+    "public_metrics": {
+      "like_count": 10,
+      "reply_count": 6,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_sales team/status/x_fixture_5"
+  },
+  {
+    "id": "x_fixture_6",
+    "text": "As a founder I am looking for an alternative to manual meeting notes. Need a tool that can summarize meeting notes and update Notion automatically.",
+    "author_username": "fixture_founder_6",
+    "created_at": "2026-04-16T14:42:00Z",
+    "public_metrics": {
+      "like_count": 11,
+      "reply_count": 1,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_founder/status/x_fixture_6"
+  },
+  {
+    "id": "x_fixture_7",
+    "text": "As a founder I am looking for an alternative to manual meeting notes. Need a tool that can summarize meeting notes and update Notion automatically.",
+    "author_username": "fixture_founder_7",
+    "created_at": "2026-04-16T15:49:00Z",
+    "public_metrics": {
+      "like_count": 12,
+      "reply_count": 2,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_founder/status/x_fixture_7"
+  },
+  {
+    "id": "x_fixture_8",
+    "text": "As a founder I am looking for an alternative to manual meeting notes. Need a tool that can summarize meeting notes and update Notion automatically.",
+    "author_username": "fixture_founder_8",
+    "created_at": "2026-04-16T16:56:00Z",
+    "public_metrics": {
+      "like_count": 13,
+      "reply_count": 3,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_founder/status/x_fixture_8"
+  },
+  {
+    "id": "x_fixture_9",
+    "text": "As a founder I am looking for an alternative to manual meeting notes. Need a tool that can summarize meeting notes and update Notion automatically.",
+    "author_username": "fixture_founder_9",
+    "created_at": "2026-04-16T17:03:00Z",
+    "public_metrics": {
+      "like_count": 14,
+      "reply_count": 4,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_founder/status/x_fixture_9"
+  },
+  {
+    "id": "x_fixture_10",
+    "text": "As a founder I am looking for an alternative to manual meeting notes. Need a tool that can summarize meeting notes and update Notion automatically.",
+    "author_username": "fixture_founder_10",
+    "created_at": "2026-04-16T18:10:00Z",
+    "public_metrics": {
+      "like_count": 15,
+      "reply_count": 5,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_founder/status/x_fixture_10"
+  },
+  {
+    "id": "x_fixture_11",
+    "text": "As a recruiter I am looking for an alternative to manual candidate screening. Need a tool that can summarize resume and update Greenhouse automatically.",
+    "author_username": "fixture_recruiter_11",
+    "created_at": "2026-04-16T19:17:00Z",
+    "public_metrics": {
+      "like_count": 16,
+      "reply_count": 6,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_recruiter/status/x_fixture_11"
+  },
+  {
+    "id": "x_fixture_12",
+    "text": "As a recruiter I am looking for an alternative to manual candidate screening. Need a tool that can summarize resume and update Greenhouse automatically.",
+    "author_username": "fixture_recruiter_12",
+    "created_at": "2026-04-16T08:24:00Z",
+    "public_metrics": {
+      "like_count": 17,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_recruiter/status/x_fixture_12"
+  },
+  {
+    "id": "x_fixture_13",
+    "text": "As a recruiter I am looking for an alternative to manual candidate screening. Need a tool that can summarize resume and update Greenhouse automatically.",
+    "author_username": "fixture_recruiter_13",
+    "created_at": "2026-04-16T09:31:00Z",
+    "public_metrics": {
+      "like_count": 18,
+      "reply_count": 2,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_recruiter/status/x_fixture_13"
+  },
+  {
+    "id": "x_fixture_14",
+    "text": "As a recruiter I am looking for an alternative to manual candidate screening. Need a tool that can summarize resume and update Greenhouse automatically.",
+    "author_username": "fixture_recruiter_14",
+    "created_at": "2026-04-16T10:38:00Z",
+    "public_metrics": {
+      "like_count": 19,
+      "reply_count": 3,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_recruiter/status/x_fixture_14"
+  },
+  {
+    "id": "x_fixture_15",
+    "text": "As a recruiter I am looking for an alternative to manual candidate screening. Need a tool that can summarize resume and update Greenhouse automatically.",
+    "author_username": "fixture_recruiter_15",
+    "created_at": "2026-04-16T11:45:00Z",
+    "public_metrics": {
+      "like_count": 20,
+      "reply_count": 4,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_recruiter/status/x_fixture_15"
+  },
+  {
+    "id": "x_fixture_16",
+    "text": "As a marketer I am looking for an alternative to manual follow-up drafting. Need a tool that can summarize follow-up and update email sequences automatically.",
+    "author_username": "fixture_marketer_16",
+    "created_at": "2026-04-16T12:52:00Z",
+    "public_metrics": {
+      "like_count": 21,
+      "reply_count": 5,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_marketer/status/x_fixture_16"
+  },
+  {
+    "id": "x_fixture_17",
+    "text": "As a marketer I am looking for an alternative to manual follow-up drafting. Need a tool that can summarize follow-up and update email sequences automatically.",
+    "author_username": "fixture_marketer_17",
+    "created_at": "2026-04-16T13:59:00Z",
+    "public_metrics": {
+      "like_count": 22,
+      "reply_count": 6,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_marketer/status/x_fixture_17"
+  },
+  {
+    "id": "x_fixture_18",
+    "text": "As a marketer I am looking for an alternative to manual follow-up drafting. Need a tool that can summarize follow-up and update email sequences automatically.",
+    "author_username": "fixture_marketer_18",
+    "created_at": "2026-04-16T14:06:00Z",
+    "public_metrics": {
+      "like_count": 23,
+      "reply_count": 1,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_marketer/status/x_fixture_18"
+  },
+  {
+    "id": "x_fixture_19",
+    "text": "As a marketer I am looking for an alternative to manual follow-up drafting. Need a tool that can summarize follow-up and update email sequences automatically.",
+    "author_username": "fixture_marketer_19",
+    "created_at": "2026-04-16T15:13:00Z",
+    "public_metrics": {
+      "like_count": 24,
+      "reply_count": 2,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_marketer/status/x_fixture_19"
+  },
+  {
+    "id": "x_fixture_20",
+    "text": "As a marketer I am looking for an alternative to manual follow-up drafting. Need a tool that can summarize follow-up and update email sequences automatically.",
+    "author_username": "fixture_marketer_20",
+    "created_at": "2026-04-16T16:20:00Z",
+    "public_metrics": {
+      "like_count": 25,
+      "reply_count": 3,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_marketer/status/x_fixture_20"
+  },
+  {
+    "id": "x_fixture_21",
+    "text": "As a shopper I am looking for a better tool for skincare routine. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_shopper_21",
+    "created_at": "2026-04-16T17:27:00Z",
+    "public_metrics": {
+      "like_count": 26,
+      "reply_count": 4,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_shopper/status/x_fixture_21"
+  },
+  {
+    "id": "x_fixture_22",
+    "text": "As a shopper I am looking for a better tool for skincare routine. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_shopper_22",
+    "created_at": "2026-04-16T18:34:00Z",
+    "public_metrics": {
+      "like_count": 27,
+      "reply_count": 5,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_shopper/status/x_fixture_22"
+  },
+  {
+    "id": "x_fixture_23",
+    "text": "As a shopper I am looking for a better tool for skincare routine. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_shopper_23",
+    "created_at": "2026-04-16T19:41:00Z",
+    "public_metrics": {
+      "like_count": 28,
+      "reply_count": 6,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_shopper/status/x_fixture_23"
+  },
+  {
+    "id": "x_fixture_24",
+    "text": "As a shopper I am looking for a better tool for skincare routine. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_shopper_24",
+    "created_at": "2026-04-16T08:48:00Z",
+    "public_metrics": {
+      "like_count": 29,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_shopper/status/x_fixture_24"
+  },
+  {
+    "id": "x_fixture_25",
+    "text": "As a shopper I am looking for a better tool for skincare routine. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_shopper_25",
+    "created_at": "2026-04-16T09:55:00Z",
+    "public_metrics": {
+      "like_count": 5,
+      "reply_count": 2,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_shopper/status/x_fixture_25"
+  },
+  {
+    "id": "x_fixture_26",
+    "text": "As a student I am looking for a better tool for study planner. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_student_26",
+    "created_at": "2026-04-16T10:02:00Z",
+    "public_metrics": {
+      "like_count": 6,
+      "reply_count": 3,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_student/status/x_fixture_26"
+  },
+  {
+    "id": "x_fixture_27",
+    "text": "As a student I am looking for a better tool for study planner. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_student_27",
+    "created_at": "2026-04-16T11:09:00Z",
+    "public_metrics": {
+      "like_count": 7,
+      "reply_count": 4,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_student/status/x_fixture_27"
+  },
+  {
+    "id": "x_fixture_28",
+    "text": "As a student I am looking for a better tool for study planner. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_student_28",
+    "created_at": "2026-04-16T12:16:00Z",
+    "public_metrics": {
+      "like_count": 8,
+      "reply_count": 5,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_student/status/x_fixture_28"
+  },
+  {
+    "id": "x_fixture_29",
+    "text": "As a student I am looking for a better tool for study planner. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_student_29",
+    "created_at": "2026-04-16T13:23:00Z",
+    "public_metrics": {
+      "like_count": 9,
+      "reply_count": 6,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_student/status/x_fixture_29"
+  },
+  {
+    "id": "x_fixture_30",
+    "text": "As a student I am looking for a better tool for study planner. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_student_30",
+    "created_at": "2026-04-16T14:30:00Z",
+    "public_metrics": {
+      "like_count": 10,
+      "reply_count": 1,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_student/status/x_fixture_30"
+  },
+  {
+    "id": "x_fixture_31",
+    "text": "As a parent I am looking for a better tool for meal planning. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_parent_31",
+    "created_at": "2026-04-16T15:37:00Z",
+    "public_metrics": {
+      "like_count": 11,
+      "reply_count": 2,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_parent/status/x_fixture_31"
+  },
+  {
+    "id": "x_fixture_32",
+    "text": "As a parent I am looking for a better tool for meal planning. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_parent_32",
+    "created_at": "2026-04-16T16:44:00Z",
+    "public_metrics": {
+      "like_count": 12,
+      "reply_count": 3,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_parent/status/x_fixture_32"
+  },
+  {
+    "id": "x_fixture_33",
+    "text": "As a parent I am looking for a better tool for meal planning. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_parent_33",
+    "created_at": "2026-04-16T17:51:00Z",
+    "public_metrics": {
+      "like_count": 13,
+      "reply_count": 4,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_parent/status/x_fixture_33"
+  },
+  {
+    "id": "x_fixture_34",
+    "text": "As a parent I am looking for a better tool for meal planning. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_parent_34",
+    "created_at": "2026-04-16T18:58:00Z",
+    "public_metrics": {
+      "like_count": 14,
+      "reply_count": 5,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_parent/status/x_fixture_34"
+  },
+  {
+    "id": "x_fixture_35",
+    "text": "As a parent I am looking for a better tool for meal planning. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_parent_35",
+    "created_at": "2026-04-16T19:05:00Z",
+    "public_metrics": {
+      "like_count": 15,
+      "reply_count": 6,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_parent/status/x_fixture_35"
+  },
+  {
+    "id": "x_fixture_36",
+    "text": "As a consumer I am looking for a better tool for product comparison. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_consumer_36",
+    "created_at": "2026-04-16T08:12:00Z",
+    "public_metrics": {
+      "like_count": 16,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_consumer/status/x_fixture_36"
+  },
+  {
+    "id": "x_fixture_37",
+    "text": "As a consumer I am looking for a better tool for product comparison. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_consumer_37",
+    "created_at": "2026-04-16T09:19:00Z",
+    "public_metrics": {
+      "like_count": 17,
+      "reply_count": 2,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_consumer/status/x_fixture_37"
+  },
+  {
+    "id": "x_fixture_38",
+    "text": "As a consumer I am looking for a better tool for product comparison. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_consumer_38",
+    "created_at": "2026-04-16T10:26:00Z",
+    "public_metrics": {
+      "like_count": 18,
+      "reply_count": 3,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_consumer/status/x_fixture_38"
+  },
+  {
+    "id": "x_fixture_39",
+    "text": "As a consumer I am looking for a better tool for product comparison. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_consumer_39",
+    "created_at": "2026-04-16T11:33:00Z",
+    "public_metrics": {
+      "like_count": 19,
+      "reply_count": 4,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_consumer/status/x_fixture_39"
+  },
+  {
+    "id": "x_fixture_40",
+    "text": "As a consumer I am looking for a better tool for product comparison. Current product research is annoying, manual, and not worth the time.",
+    "author_username": "fixture_consumer_40",
+    "created_at": "2026-04-16T12:40:00Z",
+    "public_metrics": {
+      "like_count": 20,
+      "reply_count": 5,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_consumer/status/x_fixture_40"
+  },
+  {
+    "id": "x_fixture_41",
+    "text": "As a freelancer I am looking for a better tool for invoice follow-up. Current workflow is painfully manual and I need automation for invoice.",
+    "author_username": "fixture_freelancer_41",
+    "created_at": "2026-04-16T13:47:00Z",
+    "public_metrics": {
+      "like_count": 21,
+      "reply_count": 6,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_freelancer/status/x_fixture_41"
+  },
+  {
+    "id": "x_fixture_42",
+    "text": "As a freelancer I am looking for a better tool for invoice follow-up. Current workflow is painfully manual and I need automation for invoice.",
+    "author_username": "fixture_freelancer_42",
+    "created_at": "2026-04-16T14:54:00Z",
+    "public_metrics": {
+      "like_count": 22,
+      "reply_count": 1,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_freelancer/status/x_fixture_42"
+  },
+  {
+    "id": "x_fixture_43",
+    "text": "As a freelancer I am looking for a better tool for invoice follow-up. Current workflow is painfully manual and I need automation for invoice.",
+    "author_username": "fixture_freelancer_43",
+    "created_at": "2026-04-16T15:01:00Z",
+    "public_metrics": {
+      "like_count": 23,
+      "reply_count": 2,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_freelancer/status/x_fixture_43"
+  },
+  {
+    "id": "x_fixture_44",
+    "text": "As a freelancer I am looking for a better tool for invoice follow-up. Current workflow is painfully manual and I need automation for invoice.",
+    "author_username": "fixture_freelancer_44",
+    "created_at": "2026-04-16T16:08:00Z",
+    "public_metrics": {
+      "like_count": 24,
+      "reply_count": 3,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_freelancer/status/x_fixture_44"
+  },
+  {
+    "id": "x_fixture_45",
+    "text": "As a freelancer I am looking for a better tool for invoice follow-up. Current workflow is painfully manual and I need automation for invoice.",
+    "author_username": "fixture_freelancer_45",
+    "created_at": "2026-04-16T17:15:00Z",
+    "public_metrics": {
+      "like_count": 25,
+      "reply_count": 4,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_freelancer/status/x_fixture_45"
+  },
+  {
+    "id": "x_fixture_46",
+    "text": "As a creator I am looking for a better tool for content repurpose. Current workflow is painfully manual and I need automation for content repurpose.",
+    "author_username": "fixture_creator_46",
+    "created_at": "2026-04-16T18:22:00Z",
+    "public_metrics": {
+      "like_count": 26,
+      "reply_count": 5,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_46"
+  },
+  {
+    "id": "x_fixture_47",
+    "text": "As a creator I am looking for a better tool for content repurpose. Current workflow is painfully manual and I need automation for content repurpose.",
+    "author_username": "fixture_creator_47",
+    "created_at": "2026-04-16T19:29:00Z",
+    "public_metrics": {
+      "like_count": 27,
+      "reply_count": 6,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_47"
+  },
+  {
+    "id": "x_fixture_48",
+    "text": "As a creator I am looking for a better tool for content repurpose. Current workflow is painfully manual and I need automation for content repurpose.",
+    "author_username": "fixture_creator_48",
+    "created_at": "2026-04-16T08:36:00Z",
+    "public_metrics": {
+      "like_count": 28,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_48"
+  },
+  {
+    "id": "x_fixture_49",
+    "text": "As a creator I am looking for a better tool for content repurpose. Current workflow is painfully manual and I need automation for content repurpose.",
+    "author_username": "fixture_creator_49",
+    "created_at": "2026-04-16T09:43:00Z",
+    "public_metrics": {
+      "like_count": 29,
+      "reply_count": 2,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_49"
+  },
+  {
+    "id": "x_fixture_50",
+    "text": "As a creator I am looking for a better tool for content repurpose. Current workflow is painfully manual and I need automation for content repurpose.",
+    "author_username": "fixture_creator_50",
+    "created_at": "2026-04-16T10:50:00Z",
+    "public_metrics": {
+      "like_count": 5,
+      "reply_count": 3,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_50"
+  },
+  {
+    "id": "x_fixture_51",
+    "text": "As a developer I am looking for a better tool for client notes. Current workflow is painfully manual and I need automation for client notes.",
+    "author_username": "fixture_developer_51",
+    "created_at": "2026-04-16T11:57:00Z",
+    "public_metrics": {
+      "like_count": 6,
+      "reply_count": 4,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_developer/status/x_fixture_51"
+  },
+  {
+    "id": "x_fixture_52",
+    "text": "As a developer I am looking for a better tool for client notes. Current workflow is painfully manual and I need automation for client notes.",
+    "author_username": "fixture_developer_52",
+    "created_at": "2026-04-16T12:04:00Z",
+    "public_metrics": {
+      "like_count": 7,
+      "reply_count": 5,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_developer/status/x_fixture_52"
+  },
+  {
+    "id": "x_fixture_53",
+    "text": "As a developer I am looking for a better tool for client notes. Current workflow is painfully manual and I need automation for client notes.",
+    "author_username": "fixture_developer_53",
+    "created_at": "2026-04-16T13:11:00Z",
+    "public_metrics": {
+      "like_count": 8,
+      "reply_count": 6,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_developer/status/x_fixture_53"
+  },
+  {
+    "id": "x_fixture_54",
+    "text": "As a developer I am looking for a better tool for client notes. Current workflow is painfully manual and I need automation for client notes.",
+    "author_username": "fixture_developer_54",
+    "created_at": "2026-04-16T14:18:00Z",
+    "public_metrics": {
+      "like_count": 9,
+      "reply_count": 1,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_developer/status/x_fixture_54"
+  },
+  {
+    "id": "x_fixture_55",
+    "text": "As a developer I am looking for a better tool for client notes. Current workflow is painfully manual and I need automation for client notes.",
+    "author_username": "fixture_developer_55",
+    "created_at": "2026-04-16T15:25:00Z",
+    "public_metrics": {
+      "like_count": 10,
+      "reply_count": 2,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_developer/status/x_fixture_55"
+  },
+  {
+    "id": "x_fixture_56",
+    "text": "As a creator I am looking for a better tool for creator workflow. Current workflow is painfully manual and I need automation for repurpose.",
+    "author_username": "fixture_creator_56",
+    "created_at": "2026-04-16T16:32:00Z",
+    "public_metrics": {
+      "like_count": 11,
+      "reply_count": 3,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_56"
+  },
+  {
+    "id": "x_fixture_57",
+    "text": "As a creator I am looking for a better tool for creator workflow. Current workflow is painfully manual and I need automation for repurpose.",
+    "author_username": "fixture_creator_57",
+    "created_at": "2026-04-16T17:39:00Z",
+    "public_metrics": {
+      "like_count": 12,
+      "reply_count": 4,
+      "retweet_count": 1
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_57"
+  },
+  {
+    "id": "x_fixture_58",
+    "text": "As a creator I am looking for a better tool for creator workflow. Current workflow is painfully manual and I need automation for repurpose.",
+    "author_username": "fixture_creator_58",
+    "created_at": "2026-04-16T18:46:00Z",
+    "public_metrics": {
+      "like_count": 13,
+      "reply_count": 5,
+      "retweet_count": 2
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_58"
+  },
+  {
+    "id": "x_fixture_59",
+    "text": "As a creator I am looking for a better tool for creator workflow. Current workflow is painfully manual and I need automation for repurpose.",
+    "author_username": "fixture_creator_59",
+    "created_at": "2026-04-16T19:53:00Z",
+    "public_metrics": {
+      "like_count": 14,
+      "reply_count": 6,
+      "retweet_count": 3
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_59"
+  },
+  {
+    "id": "x_fixture_60",
+    "text": "As a creator I am looking for a better tool for creator workflow. Current workflow is painfully manual and I need automation for repurpose.",
+    "author_username": "fixture_creator_60",
+    "created_at": "2026-04-16T08:00:00Z",
+    "public_metrics": {
+      "like_count": 15,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "url": "https://x.com/fixture_creator/status/x_fixture_60"
+  }
+]

@@ -1,0 +1,27 @@
+# Local / generated artifacts
+.hermes/
+LOCAL_INTEGRATION.md
+docs/plans/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.mypy_cache/
+*.egg-info/
+
+# Node
+node_modules/
+
+# macOS
+.DS_Store
+
+# Prototype outputs
+prototypes/**/__pycache__/
+prototypes/**/output/
+prototypes/**/state/
+prototypes/**/*.pdf
+prototypes/**/*.db
